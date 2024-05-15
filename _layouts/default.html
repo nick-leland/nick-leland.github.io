@@ -5,25 +5,40 @@
   <meta name="viewport" content="width=device-width, initial-scale=1.0">
   <title>{{ page.title }} - {{ site.title }}</title>
   <link rel="stylesheet" href="{{ '/assets/custom.css' | relative_url }}">
-  <link rel="stylesheet" href="{{ '/assets/main.css' | relative_url }}"> <!-- Existing CSS, if any -->
+  <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.4/css/all.min.css">
 </head>
 <body>
   <header>
-    <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+    <div class="container">
+      <h1><a href="{{ site.url }}">{{ site.title }}</a></h1>
+      <p>{{ site.description }}</p>
+    </div>
   </header>
-  <nav>
-    <ul>
-      <li><a href="{{ site.baseurl }}/">Home</a></li>
-      <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
-      <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
-      <li><a href="{{ site.baseurl }}/resume">Resume</a></li>
-    </ul>
+  <nav class="navbar">
+    <div class="container">
+      <ul>
+        <li><a href="{{ site.baseurl }}/">Home</a></li>
+        <li><a href="{{ site.baseurl }}/projects">Projects</a></li>
+        <li><a href="{{ site.baseurl }}/blog">Blog</a></li>
+        <li><a href="{{ site.baseurl }}/resume">Resume</a></li>
+        <li><a href="{{ site.baseurl }}/about">About</a></li>
+      </ul>
+    </div>
   </nav>
-  <main>
-    {{ content }}
+  <main class="container">
+    <div class="content">
+      {{ content }}
+    </div>
   </main>
   <footer>
-    <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}</p>
+    <div class="container">
+      <p>&copy; {{ site.time | date: '%Y' }} {{ site.title }}. All rights reserved.</p>
+      <p>
+        <a href="mailto:{{ site.email }}"><i class="fas fa-envelope"></i> Email</a>
+        <a href="https://github.com/{{ site.github_username }}"><i class="fab fa-github"></i> GitHub</a>
+        <a href="https://twitter.com/{{ site.twitter_username }}"><i class="fab fa-twitter"></i> Twitter</a>
+      </p>
+    </div>
   </footer>
 </body>
 </html>
