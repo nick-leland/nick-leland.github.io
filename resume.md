@@ -11,6 +11,8 @@ title: Resume
 **LinkedIn:** [LinkedIn Profile](https://www.linkedin.com/in/nick-leland)  
 **GitHub:** [GitHub Profile](https://github.com/nick-leland)  
 
+---
+
 ## Experience
 
 ### Droitcour, Warwick, RI
@@ -30,6 +32,8 @@ title: Resume
 - **Led** sales efforts, managing primary parts and drone shipments, both outgoing and incoming.
 - **Handled** primary communications within the business through email and phone.
 
+---
+
 ## Education
 
 ### New England Institute of Technology
@@ -41,6 +45,8 @@ title: Resume
 **Overall GPA:** 3.09  
 **Extra-Curricular Activities:** Robotics Club, Math League
 
+---
+
 ## Skills
 
 - **CAD Software:** SolidWorks, AutoCAD, Autodesk Fusion 360
@@ -49,6 +55,8 @@ title: Resume
 - **Manufacturing Software:** MasterCam
 - **Technical Skills:** Basic knowledge of G-Code for CNC machines, MCOSMOS, FeatureCAM
 - **Office Tools:** Excel, Word, PowerPoint
+
+---
 
 ## Certifications
 

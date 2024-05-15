@@ -81,6 +81,47 @@ header p {
   text-align: center;
 }
 
+/* Resume Specific Styles */
+#resume {
+  text-align: left;
+  padding: 20px;
+  background: #2c2c2c;
+  border-radius: 5px;
+  margin: 20px auto;
+  max-width: 800px;
+}
+
+#resume h1, #resume h2, #resume h3, #resume h4 {
+  color: #4ba3fa;
+}
+
+#resume p {
+  margin: 10px 0;
+}
+
+#resume a {
+  color: #4ba3fa;
+}
+
+#resume a:hover {
+  color: #76c7ff;
+}
+
+#resume .section-title {
+  margin-top: 20px;
+  border-bottom: 2px solid #4ba3fa;
+  padding-bottom: 5px;
+}
+
+#resume .job-title {
+  font-weight: bold;
+  margin-top: 10px;
+}
+
+#resume .job-details {
+  margin-left: 20px;
+}
+
 footer {
   background-color: #1e1e1e;
   color: #e0e0e0;
